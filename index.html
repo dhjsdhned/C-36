@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+
+
+    <script>
+      // we have put the configuration that is linking the database with the code
+      const firebaseConfig = {
+  apiKey: "AIzaSyA22-JgqHJU__829Z1llZfogv507G9lvbw",
+  authDomain: "ball-game-34bff.firebaseapp.com",
+  databaseURL: "https://ball-game-34bff-default-rtdb.firebaseio.com",
+  projectId: "ball-game-34bff",
+  storageBucket: "ball-game-34bff.appspot.com",
+  messagingSenderId: "690429659933",
+  appId: "1:690429659933:web:484f94d2f9e6bc964deff4"
+};
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
